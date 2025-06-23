@@ -25,6 +25,7 @@ h1, h2 {
 
 /* Navbar */
 .navbar {
+  width: auto;
   background-color: #fff;
   color: #fff;
   height: 50px;
