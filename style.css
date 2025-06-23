@@ -1,0 +1,183 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  color: #fff;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo a{
+  float: left;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+  margin: center;
+  top: 0;
+  margin-top: 0.01%;
+  font-size: 1.5rem;
+}
+.logo a:hover {
+  color: #007BFF;
+}
+
+
+.nav-links {
+  list-style: none;
+  float: right;
+  margin: auto;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007BFF;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  margin-top: 10px;
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero span {
+  color: #ffc107;
+}
+.box{
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+.academic div li{
+    list-style: none;
+}
+.certificate div li{
+    list-style: none;
+}
+
+.box:hover{
+    background-color: #8fc0f5  ;
+    color: #fff;
+    box-shadow:0 10px 14px rgba(0, 0, 0, 0.5) ;
+    
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #ffc107;
+}
+
+/* About, Projects, Skills, Contact */
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.container-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skill-list li {
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.s-list{
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
